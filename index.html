@@ -8,13 +8,22 @@
       canvas, img {margin:1em auto; border:1px solid black; }
       canvas { background:url(https://images7.alphacoders.com/359/359057.jpg) }
       </style>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+      <script type="application/javascript" src="lib/bundle.js"></script>
   </head>
   <body>
-    <div id="background">
-      <canvas></canvas>
+    <div id="startModal" width=1000 height=600>
+      <h1>start game</h1>
+      <button id="startButton" type="submit">play</button>
     </div>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script type="application/javascript" src="lib/bundle.js"></script>
+    <div id="reset" width=1000 height=600>
+      <h1 id="score"></h1>
+      <button id="restartButton" type="submit">replay?</button>
+    </div>
+    <div id="background" width=1000 height=600>
+      <canvas id="canvas"></canvas>
+    </div>
+
   </body>
 </html>
