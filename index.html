@@ -12,18 +12,27 @@
       <script type="application/javascript" src="lib/bundle.js"></script>
   </head>
   <body>
-    <div id="startModal" width=1000 height=600>
-      <h1>start game</h1>
-      <button id="startButton" type="submit">play</button>
+    <div id="mouseArea">
+      <div id="startModal" width=1000 height=600>
+        <h1>start game</h1>
+        <button id="startButton" type="submit">play</button>
+      </div>
+
+      <div id="reset" width=1000 height=600>
+        <h1 id="score"></h1>
+        <button id="restartButton" type="submit">replay?</button>
+      </div>
+      <div id="background" width=1000 height=600>
+        <canvas id="canvas"></canvas>
+      </div>
     </div>
 
-    <div id="reset" width=1000 height=600>
-      <h1 id="score"></h1>
-      <button id="restartButton" type="submit">replay?</button>
+    <div id='instructions'>
+      <h1>Shape Wars</h1>
+      <p>1. The squares are circle thirsty</p>
+      <p>2. Red squares are phasing into the battlefield, run while you can</p>
+      <p>3. Triangles are your friend. They explode, killing the squares</p>
+      <p>4. Collect the green remains for points</p>
     </div>
-    <div id="background" width=1000 height=600>
-      <canvas id="canvas"></canvas>
-    </div>
-
   </body>
 </html>
