@@ -1,3 +1,5 @@
+
+
 #canvas {
   cursor: none;
 }
@@ -9,6 +11,7 @@
   width: 200px;
   text-wrap: break-word;
   height: 600px;
+  color: white;
 }
 
 html {
@@ -21,11 +24,9 @@ body {
   height: 100%;
   position: relative;
   margin: 0;
+  background-image: url("http://a.dryicons.com/files/graphics_previews/DD-Space-Background-20134-Preview.jpg")
 }
 
-#background {
-
-}
 
 #canvas{
   position: absolute;
